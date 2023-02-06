@@ -6,8 +6,7 @@ def fib(n, term1, term2):
         print(end=" ")
 
     else:
-        fib(n-1, term2, term1 + term2)
         print(term1, end=" ")
-        fib(n-1, term2, term1 - term2)
-
+        fib(n-1, term2, term1 + term2)
+        
 fib(4, 1, 1)
