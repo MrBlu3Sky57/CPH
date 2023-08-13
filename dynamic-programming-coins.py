@@ -6,9 +6,7 @@ value = [0] * (N + 1)
 best = float("inf")
 
 def solve(x):
-    global best
-    global ready
-    global value
+    global best, ready, value
 
     if x < 0:
         return float("inf")
